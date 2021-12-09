@@ -1,7 +1,7 @@
 # CSALE
 This project provides the implementations for the paper "A Fast Algorithm for PAC Combinatorial Pure Exploration", Noa Ben-David and Sivan Sabato, AAAI-22.
 
-CSALE is a Combinatorial Pure Exploration (CPE) algorithm, which deals with finding a combinatorial set or arms with a high reward, when the rewards of individual arms are unknown in advance and must be estimated using arm pulls. CSALE is a CPE algorithm in the PAC setting, which is computationally light weight, and so can easily be applied to problems with tens of thousands of arms. This is achieved since CSALE requires a very small number of combinatorial oracle calls. The algorithm is based on successive acceptance of arms, along with elimination which is based on the combinatorial structure of the problem.
+CSALE is a Combinatorial Pure Exploration (CPE) algorithm, which deals with finding a combinatorial set of arms with a high reward, when the rewards of individual arms are unknown in advance and must be estimated using arm pulls. CSALE is a CPE algorithm in the PAC setting, which is computationally light weight, and so can easily be applied to problems with tens of thousands of arms. This is achieved since CSALE requires a very small number of combinatorial oracle calls. The algorithm is based on successive acceptance of arms, along with elimination which is based on the combinatorial structure of the problem.
 
 Environment
 ===========
